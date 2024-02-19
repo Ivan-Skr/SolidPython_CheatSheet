@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="icon" type="image/x-icon" href="../../../Python_logo.ico">
+        <title>surface</title> 
+        <link type="text/css" rel="stylesheet" href="../../../css/main.css" media="all" />
+        <style> 
+            img { 
+            float: left; 
+            margin-right: 2em; 
+            } 
+            h1 {
+            margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#effafd">
+        <h1><a href="../../Russian/index.html">вернуться</a></h1>
+        <h1 style="font-size: 40px"><strong>surface("file.png"; center; invert)</strong></h1>
+        <p><img src="../../pics/pic_2d_to_3d/surface/surface.jpg" width="260" height="260" title="Поверхность">Преобразует файл изображения в рисунок. В настоящее время поддерживаются только изображения в формате PNG. высота пикселя определяется путем преобразования значения цвета в оттенки серого с использованием линейной яркости для цветового пространства sRGB (Y = 0,2126 R + 0,7152G + 0,0722B). Значения шкалы серого масштабируются в диапазоне от 0 до 100.</p>
+        <p line-height: 20px;><strong>surface(file = "file.png", center = True/False, invert = True/False)</strong></p><br />
+        <p style="font-size: 30px">примеры:</p>
+        <figure>
+            <img src="../../pics/pic_2d_to_3d/surface/surface_pic.png" width="100px" height="100px" title="surface_pic.png">
+            <p><strong>surface_pic.png</strong></p>
+        </figure>
+        <figure>
+            <img src="../../pics/pic_2d_to_3d/surface/surface_1.jpg" width="100px" height="100px" title="surface(file = 'surface_pic.png', invert = False, center = True)">
+            <p><strong>surface(file = 'surface_pic.png', invert = False, center = True)</strong></p>
+        </figure>
+        <figure>
+            <img src="../../pics/pic_2d_to_3d/surface/surface_2.jpg" width="100px" height="100px" title="surface(file = 'surface_pic.png', invert = True, center = False)">
+            <p><strong>surface(file = 'surface_pic.png', invert = True, center = False)</strong></p>
+        </figure>
+    </body>
+</html>
